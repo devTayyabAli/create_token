@@ -1,0 +1,32 @@
+.main_bg{
+    background-color: #f8f9fa!important;
+    color: #6c757d!important;
+}
+
+.footer_icon{
+    font-size: 26px;
+}
+
+.footer_icon:hover{
+    color:rgb(48, 48, 233);
+    cursor: pointer;
+}
+.upper_content{
+    border-bottom: 1px solid #6c757d;
+}
+
+.upper_footer_links{
+    color:#6c757d;
+}
+
+.upper_footer_links:hover{
+    color:#6c757d;
+    background-color: greenyellow;
+}
+
+
+@media only screen and (max-width:600px){
+    .width_res{
+        width: 220px !important;
+    }
+}

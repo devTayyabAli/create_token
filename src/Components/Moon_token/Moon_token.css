@@ -1,0 +1,63 @@
+.token_heading{
+    font-size: 3rem;
+    margin-bottom: 1rem!important;
+    font-weight: 700!important;
+    line-height: 1!important;
+}
+
+.token_btn1{
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    margin-right: 15px !important;
+}
+
+.token_btn1:hover{
+    color: white;
+    background-color: #0656cf;
+
+}
+
+.token_btn2{
+    color: #6c757d;
+    border-color: #6c757d;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    /* border: 1px solid transparent; */
+}
+
+.token_btn2:hover{
+    background-color: #6c757d !important;
+    color: white;
+}
+
+.token_sub_heading{
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    /* margin-top: 3rem; */
+}
+
+.small_logo{
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+
+@media only screen and (max-width:600px){
+    .responsive{
+        margin-top: 15px !important;
+    }
+}

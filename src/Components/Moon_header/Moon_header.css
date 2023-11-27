@@ -1,0 +1,20 @@
+
+
+.moon_haeder_bg{
+    /* background-color: #f8f9fa!important; */
+    background-color: white !important;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start !important;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+
+.moon_head{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}

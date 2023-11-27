@@ -1,0 +1,28 @@
+.main_padding{
+    padding-top: 100px !important;
+}
+
+.choose_heading{
+    color: #5b53a2;
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+    margin: 0 0 18px;   
+    letter-spacing: 1.5px;
+    line-height: 1.3;
+}
+
+.choose_para{
+    color: #343a40 !important;
+    font-size: 15px;
+    line-height: 1.7;
+    margin: 0 0 18px;
+    font-weight: 300;
+}
+
+
+@media only screen and (max-width:600px){
+    .responsive_dir{
+        display: flex  !important;
+        flex-direction: column !important;
+    }
+}

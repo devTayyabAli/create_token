@@ -1,0 +1,43 @@
+.token_bg{
+    background-color: white!important;
+    padding: 15px ;
+}
+
+.token_header_btn{
+    border: none;
+    outline: none;
+    border-radius: 50rem!important;
+    padding: 0.5rem!important;
+    border: 1px solid #0dcaf0!important;
+    background-color: transparent;
+    margin-right: 10px !important;
+}
+
+.btn_text{
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.connect_btn{
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    padding: 2px 5px;
+    font-size: .875rem;
+    border-radius: 0.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    
+}
+
+@media only screen and (max-width:600px){
+    .token_bg{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .res_btn{
+        margin-top: 10px;
+    }
+}

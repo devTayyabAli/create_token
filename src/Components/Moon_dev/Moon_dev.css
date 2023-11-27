@@ -1,0 +1,25 @@
+.lead{
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+.testimoinal{
+    border-right-style: dashed;
+    border-right-width: 1px;
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+    border-right-color: #ddd;
+    border-bottom-color: #ddd;
+    padding: 25px;
+}
+
+.img_p{
+    margin: 0 20px 0 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    overflow: hidden;
+}

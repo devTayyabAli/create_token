@@ -1,0 +1,124 @@
+.token_main_heading {
+    line-height: 1 !important;
+    font-weight: 700 !important;
+    margin-bottom: 1rem !important;
+    margin-top: 0.5rem !important;
+    font-size: 3rem;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+input.no-outline {
+    border-top-style: hidden !important;
+    border-bottom-style: hidden !important;
+
+    border-right-style: hidden !important;
+    border-left-style: hidden !important;
+    border-bottom-style: groove;
+}
+
+.no-outline:focus {
+    outline: none !important;
+}
+
+.token_select {
+    font-weight: 500;
+    border: 2.5px solid #2c68ff !important;
+    width: 100%;
+    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+}
+
+.input_para {
+    font-size: smaller;
+    color: gray;
+}
+
+.token_input {
+    width: 300px;
+    height: 30px;
+    border: 1px solid rgb(133, 133, 133);
+}
+
+.token_input:focus {
+    border-color: rgba(214, 55, 235, 0.8);
+    box-shadow: 0 1px 1px rgb(229 103 23 / 8%) inset, 0 0 8px rgb(86 115 241 / 60%);
+    outline: 0 none;
+}
+
+.green_para {
+    background-color: greenyellow;
+}
+
+.token_btn_select {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    color: #fff;
+    background-color: #5b53a2;
+    border-color: #5b53a2;
+    width: 25%;
+}
+
+.token_btn_select:hover {
+    background-color: #5b53a2;
+}
+
+.network_select {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.network_select:focus {
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+
+.token_details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.status {
+    background-color: #212529;
+    color: white;
+    padding: 10px 3rem 0px 3rem;
+}
+
+.btn_inner {
+    /* padding: 5px 3rem 10px 3rem; */
+
+}
+
+.inner_list_tag {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width:600px) {
+    .responsive_made {
+        flex-direction: column !important;
+    }
+
+    .token_btn_select {
+        width: 40%;
+    }
+}
+
+.td_width {
+    width: 50px !important;
+}

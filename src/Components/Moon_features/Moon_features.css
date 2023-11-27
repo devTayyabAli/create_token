@@ -1,0 +1,35 @@
+.features_heading{
+    
+    text-align: left;
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    /* padding: 50px 0px !important; */
+}
+
+.features_head{
+    border-bottom: 1px solid #dee2e6 !important;
+    margin-top: 10px;
+    margin-bottom: 3rem;
+}
+
+.features_card{
+    padding: 26px;
+    background: #fff;
+    border: 0;
+    box-shadow: 0 0 50px 0 rgb(0 0 0 / 2%);
+}
+
+.features_img{
+    width:12%;
+}
+
+.features_main_bg{    background-color: #f8f9fa !important;}
+
+.features_card_heading{
+    font-size: 20px;
+    font-weight: 400;
+    color: #5623aa;
+    margin: 0 0 18px;
+}
